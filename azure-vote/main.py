@@ -22,7 +22,6 @@ from opencensus.trace import config_integration
 from opencensus.trace.samplers import ProbabilitySampler
 from opencensus.trace.tracer import Tracer
 from opencensus.ext.flask.flask_middleware import FlaskMiddleware
-from applicationinsights import TelemetryClient
 
 connection_string = 'InstrumentationKey=e75593ee-3714-4bec-ac89-ec45c06df46e'
 
